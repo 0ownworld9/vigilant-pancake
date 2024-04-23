@@ -98,10 +98,3 @@ for k=2:L %开始递推运算
     n=n+1;
 end
 end
-
-% noise_power = 10; % 噪声功率
-% noise_amplitude = sqrt(noise_power * 0.01); % 根据采样率计算噪声幅度
-% noise = noise_amplitude * randn(size(yz)); % 生成高斯白噪声
-% yznoise=yz+noise;
-% yznoise=awgn(yz,10,'measured');%高斯白噪声
-
